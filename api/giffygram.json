@@ -1,16 +1,38 @@
 {
-	"users": [],
-	"posts": [
-		{
-			"id": 2,
-			"imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
-			
-			"userId": 6,
-			"description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-			"timestamp": 1561695022812,
-			"title": "Enhanced global utilisation"
-		  }
-	],
-	"messages":[]
+  "users": [],
+  "posts": [
+    {
+      "id": 2,
+      "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
+      "userId": 6,
+      "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "timestamp": 1615482285000,
+      "title": "Enhanced global utilisation"
+    },
+    {
+      "imageURL": "https://media0.giphy.com/media/p4cqQ0gUIMcU0/giphy.webp?cid=ecf05e47rhfxkdidno8xxkkxd75ey02yc9q0p7ptfmu94m5y&rid=giphy.webp",
+      "userId": 6,
+      "description": "Literally anything else.",
+      "timestamp": 1583946285000,
+      "title": "Ewwwwwwwwwwwwwwwwww",
+      "id": 3
+    },
+    {
+      "title": "I got this",
+      "imageURL": "https://media0.giphy.com/media/mFYxjzJO3zzNqGAwee/200w.webp?cid=ecf05e47pyse9yty6frf6fkrw3el2ummibrwblsiegmqzc66&rid=200w.webp",
+      "description": "Finally got posts to work",
+      "userId": 1,
+      "timestamp": 1615490512774,
+      "id": 4
+    },
+    {
+      "title": "Celebration",
+      "imageURL": "https://media4.giphy.com/media/2wZvJ85AS1KA8bRq3w/200w.webp?cid=ecf05e473uckql4sa7akbl4tu4czbeiug9fqty4hxl5zdfk0&rid=200w.webp",
+      "description": "Doin victory laps",
+      "userId": 1,
+      "timestamp": 1615490606428,
+      "id": 5
+    }
+  ],
+  "messages": []
 }
-
