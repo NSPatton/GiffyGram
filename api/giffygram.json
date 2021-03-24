@@ -1,21 +1,19 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Bryan",
+      "email": "bryan@bn.com"
+    }
+  ],
   "posts": [
     {
-      "id": 2,
+      "title": "Complete Global Saturation",
       "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
-      "userId": 6,
       "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "userId": 1,
       "timestamp": 1615482285000,
-      "title": "Enhanced global utilisation"
-    },
-    {
-      "imageURL": "https://media0.giphy.com/media/p4cqQ0gUIMcU0/giphy.webp?cid=ecf05e47rhfxkdidno8xxkkxd75ey02yc9q0p7ptfmu94m5y&rid=giphy.webp",
-      "userId": 6,
-      "description": "Literally anything else.",
-      "timestamp": 1583946285000,
-      "title": "Ewwwwwwwwwwwwwwwwww",
-      "id": 3
+      "id": 2
     },
     {
       "title": "I got this",
@@ -32,6 +30,14 @@
       "userId": 1,
       "timestamp": 1615490606428,
       "id": 5
+    },
+    {
+      "title": "Teamwork makes the dream work",
+      "imageURL": "https://media4.giphy.com/media/xTiTnqWTs0onBAWGEo/giphy.gif?cid=ecf05e47n548pcspksegkqpje5ofyg9lo23k95xjx5k0j4v5&rid=giphy.gif",
+      "description": "Getting help from the homies",
+      "userId": 1,
+      "timestamp": 1615491167182,
+      "id": 6
     }
   ],
   "messages": []
