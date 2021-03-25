@@ -8,22 +8,6 @@
   ],
   "posts": [
     {
-      "title": "Complete Global Saturation",
-      "imageURL": "https://media.giphy.com/media/26xBI73gWquCBBCDe/giphy.gif",
-      "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-      "userId": 1,
-      "timestamp": 1615482285000,
-      "id": 2
-    },
-    {
-      "title": "I got this",
-      "imageURL": "https://media0.giphy.com/media/mFYxjzJO3zzNqGAwee/200w.webp?cid=ecf05e47pyse9yty6frf6fkrw3el2ummibrwblsiegmqzc66&rid=200w.webp",
-      "description": "Finally got posts to work",
-      "userId": 1,
-      "timestamp": 1615490512774,
-      "id": 4
-    },
-    {
       "title": "Celebration",
       "imageURL": "https://media4.giphy.com/media/2wZvJ85AS1KA8bRq3w/200w.webp?cid=ecf05e473uckql4sa7akbl4tu4czbeiug9fqty4hxl5zdfk0&rid=200w.webp",
       "description": "Doin victory laps",
@@ -38,6 +22,56 @@
       "userId": 1,
       "timestamp": 1615491167182,
       "id": 6
+    },
+    {
+      "title": "OH MAN",
+      "imageURL": "https://media4.giphy.com/media/YCM6aRw2Chenu/giphy.gif?cid=ecf05e47toevey3zaou90ry9bbj2c2gd102ltc62drvsg9rb&rid=giphy.gif",
+      "description": "I HOPE THIS WORKS",
+      "userId": 1,
+      "timestamp": 1616697192268,
+      "id": 20
+    }
+  ],
+  "userLikes": [
+    {
+      "postId": "6",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "postId": "5",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "postId": "5",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "postId": "20",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "postId": "6",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "postId": "5",
+      "userId": 1,
+      "id": 8
     }
   ],
   "messages": []

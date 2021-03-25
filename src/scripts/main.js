@@ -2,7 +2,7 @@
  * Main logic module for what should happen on initial page load for Giffygram
  */
 
- import { getUsers, getPosts, usePostCollection, getLoggedInUser, createPost, deletePost, getSinglePost, updatePost, logoutUser, setLoggedInUser, loginUser, registerUser } from "./data/DataManager.js"
+ import { getUsers, getPosts, usePostCollection, getLoggedInUser, createPost, deletePost, getSinglePost, updatePost, logoutUser, setLoggedInUser, loginUser, registerUser, postLike, } from "./data/DataManager.js"
 import { PostList } from "./feed/PostList.js";
 import { NavBar } from "./Nav/NavBar.js";
 import { Footer } from "./Nav/Footer.js";
@@ -131,6 +131,20 @@ applicationElement.addEventListener("change", event => {
       checkForUser();
     }
   })
+
+  applicationElement.addEventListener("click", event => {
+    event.preventDefault();
+    if (event.target.id.startsWith("like")) {
+      const likeObject = {
+        postId: event.target.id.split("__")[1],
+       userId: getLoggedInUser().id
+      }
+      postLike(likeObject)
+      .then(response => {
+        showPostList();
+      })
+    }
+    })
 
   applicationElement.addEventListener("click", event => {
     event.preventDefault();

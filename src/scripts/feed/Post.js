@@ -1,4 +1,13 @@
-import { getLoggedInUser } from "../data/DataManager.js"
+import { getLoggedInUser, getLikes } from "../data/DataManager.js"
+
+
+const getNumberOfLikes = (postId) => {
+  getLikes(postId)
+  .then(response => {
+    document.querySelector(`#likes__${postId}`).innerHTML = `👍 ${response.length}`;
+  })
+}
+
 
 export const Post = (postObject) => {
   return `
@@ -9,9 +18,12 @@ export const Post = (postObject) => {
       <p> posted by: ${postObject.user.name}</p>
       <img class="post__image" src="${postObject.imageURL}" />
       <p>${postObject.description}</p>
+      <button id="like__${postObject.id}">Like</button>
+      <p id="likes__${postObject.id}">👍 ${getNumberOfLikes(postObject.id)}</p>
       ${postObject.user.id === getLoggedInUser().id
-      ?`<button id="edit__${postObject.id}">Edit</button>
-      <button id="delete__${postObject.id}">Delete</button>`
+        ?`<button id="edit__${postObject.id}">Edit</button>
+        <button id="delete__${postObject.id}">Delete</button>`
+
       :""
 }
     </section>

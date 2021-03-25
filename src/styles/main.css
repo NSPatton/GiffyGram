@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
+.giffygram {
+    margin-bottom: 3.8em;
+}
+
 .fakeLink:hover {
     font-weight: bold;
 }
